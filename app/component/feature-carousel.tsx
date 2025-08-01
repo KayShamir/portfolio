@@ -45,7 +45,7 @@ export default function FeatureCarousel() {
       clearTimeout(timeoutId);
       window.removeEventListener('resize', updateWidth);
     };
-  }, [features.length])
+  }, [])
 
   const handleDragEnd = () => {
     const currentX = x.get()
