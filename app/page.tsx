@@ -11,10 +11,10 @@ export default function Home() {
       <div id="services">
         <FeatureCarousel />
       </div>
+      <Marquee/>
       <div id="portfolio">
         <PortfolioGrid />
       </div>
-      <Marquee/>
       <div id="journey">
         <Timeline />
       </div>
