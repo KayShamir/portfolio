@@ -50,7 +50,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             I help clients stay organized and efficient with appointment setting, data entry, web design,
-            and tech support — while delivering excellent customer service and communication.
+            and tech support while delivering excellent customer service and communication.
           </motion.p>
           <motion.div
             className="mt-8 flex gap-4"

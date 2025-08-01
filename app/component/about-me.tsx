@@ -91,7 +91,7 @@ export default function AboutMe() {
 
               <p className="text-gray-600 mt-4">
                 My goal is to combine technical expertise with creative thinking to deliver solutions 
-                that help businesses thrive. I value efficiency, precision, and adaptability—making sure 
+                that help businesses thrive. I value efficiency, precision, and adaptability making sure 
                 every project I handle brings real results.
               </p>
             </div>
