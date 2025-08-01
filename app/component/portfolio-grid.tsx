@@ -85,7 +85,7 @@ const projects = [
   {
     id: 12,
     title: "Professional Communication Tools",
-    description: "I deliver clear, proactive communication so you’re always in the loop—every task, every update, every time.",
+    description: "I deliver clear, proactive communication so you’re always in the loop every task, every update, every time.",
     mediaType: "image",
     mediaUrl: "/communication.png",
   },
