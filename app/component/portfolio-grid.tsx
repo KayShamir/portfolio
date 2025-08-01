@@ -8,7 +8,7 @@ const projects = [
     {
       id: 1,
       title: "Appointment Setting Assistant",
-      description: "I handle all your scheduling and calendar needs, making sure you never double-book or miss a meeting—so your day runs smoothly and stress-free.",
+      description: "I handle all your scheduling and calendar needs, making sure you never double book or miss a meeting so your day runs smoothly and stress-free.",
       mediaType: "video",
       mediaUrl: "/appointment.mp4",
     },
@@ -22,14 +22,14 @@ const projects = [
   {
     id: 3,
     title: "Data Entry & Organization Suite",
-    description: "I make sure your data is entered quickly, accurately, and organized perfectly—so your business records are always clean, reliable, and easy to use.",
+    description: "I make sure your data is entered quickly, accurately, and organized perfectly so your business records are always clean, reliable, and easy to use.",
     mediaType: "video",
     mediaUrl: "/data-entry.mp4",
   },
   {
     id: 4,
     title: "MS Office Automation",
-    description: "I create polished reports, presentations, and data-driven insights with my advanced Word, Excel, and PowerPoint skills—making your business look sharp and run smarter.",
+    description: "I create polished reports, presentations, and data driven insights with my advanced Word, Excel, and PowerPoint skills making your business look sharp and run smarter.",
     mediaType: "image",
     mediaUrl: "/ms-office.png",
   },
@@ -43,7 +43,7 @@ const projects = [
   {
     id: 6,
     title: "Customer Service Workflow",
-    description: "I handle every client interaction with warmth and care, making sure everyone feels heard, valued, and supported—building trust that lasts.",
+    description: "I handle every client interaction with warmth and care, making sure everyone feels heard, valued, and supported building trust that lasts.",
     mediaType: "image",
     mediaUrl: "/customer.png",
   },

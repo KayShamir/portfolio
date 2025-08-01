@@ -16,7 +16,7 @@ const timelineEvents = [
     year: 2018,
     yearDisplay: "2018 - Present",
     title: "MS Office Enthusiast",
-    description: "Became highly proficient in Word, Excel, and PowerPoint—designing reports, automating spreadsheets, and crafting professional presentations for clients and personal projects.",
+    description: "Became highly proficient in Word, Excel, and PowerPoint designing reports, automating spreadsheets, and crafting professional presentations for clients and personal projects.",
     details:
       "Developed a passion for mastering Microsoft Office tools, streamlining workflows and creating polished documents.",
   },
