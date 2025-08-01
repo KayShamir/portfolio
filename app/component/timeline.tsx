@@ -37,7 +37,7 @@ const timelineEvents = [
   {
     year: 2025,
     title: "Virtual Assistant",
-    description: "I'm about to start working as a virtual assistant and am looking forward to gaining experience, building my skills, and helping clients however I can.",
+    description: "I&apos;m about to start working as a virtual assistant and am looking forward to gaining experience, building my skills, and helping clients however I can.",
     details:
       "Just beginning my journey as a virtual assistant, eager to learn and grow in this new role.",
   },
@@ -112,7 +112,7 @@ export default function Timeline() {
         >
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl">My Journey</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A look at how I've grown, learned, and transformed over the years.
+            A look at how I&apos;ve grown, learned, and transformed over the years.
           </p>
         </motion.div>
 
