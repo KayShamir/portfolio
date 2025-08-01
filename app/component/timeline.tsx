@@ -102,7 +102,7 @@ export default function Timeline() {
   const eventRefs = useRef<(HTMLDivElement | null)[]>([])
 
   return (
-    <section ref={containerRef} className="relative py-20 min-h-[150vh] bg-background overflow-hidden">
+    <section id="journey" ref={containerRef} className="relative py-20 min-h-[150vh] bg-background overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-12"
@@ -119,7 +119,7 @@ export default function Timeline() {
         <div className="relative">
           {/* Vertical line */}
           {/* Background static line */}
-          <div className="absolute left-1/2 transform rounded-full -translate-x-1/2 w-1 top-0 bottom-0 bg-gray-200" />
+          <div className="absolute left-1/2 transform rounded-full -translate-x-1/2 w-0.5 top-0 bottom-0 bg-gray-200" />
 
           {/* Dots on the vertical line for each event */}
           {timelineEvents.map((_, index) => (
@@ -204,8 +204,7 @@ function EventDot({
         top: top !== null ? `${top}px` : undefined,
         pointerEvents: "none",
       }}
-    >
-      <div className="w-5 h-5 bg-background border-2 border-primary rounded-full shadow" />
+    >      
     </div>
   )
 }
@@ -242,8 +241,13 @@ function TimelineEvent({
     >
       <div className="w-5/12" />
       <div className="z-20">
-        <div className="flex items-center justify-center w-8 h-8 bg-primary rounded-full">
-          <div className="w-3 h-3 bg-background rounded-full" />
+        {/* Outer colored circle */}
+        <div className="flex items-center justify-center w-7 h-7 bg-blue-950 rounded-full">
+          {/* Middle white circle */}
+          <div className="flex items-center justify-center w-5 h-5 bg-white rounded-full">
+            {/* Inner solid circle */}
+            <div className="w-3 h-3 bg-blue-950 rounded-full" />
+          </div>
         </div>
       </div>
       <motion.div

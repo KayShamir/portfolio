@@ -6,8 +6,25 @@ import heroImage from "@/public/me.png"
 import { AuroraBackground } from "@/components/ui/aurora-background"
 import { FaLinkedin, FaFacebookMessenger, FaXTwitter } from "react-icons/fa6"
 import { FaEnvelope } from "react-icons/fa6"
+import { TypewriterEffect } from "@/components/ui/typewriter-effect"
 
 export default function Hero() {
+  
+  const words = [
+    {
+      text: "Hi!",
+    },
+    {
+      text: "I'm",
+    },
+    {
+      text: "Kay",
+    },
+    {
+      text: "Shamir",
+    },
+  ];
+
   return (
     <AuroraBackground showRadialGradient={true} className="top-0">
       <div className="relative isolate overflow-hidden bg-background">
@@ -19,9 +36,12 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Hi, I&apos;m Kay Shamir
-            <br />
-            <span className="block mt-2 text-gradient text-2xl sm:text-3xl font-semibold">Virtual Assistant</span>
+            <span className="flex flex-row mt-2 text-gradient text-2xl sm:text-3xl font-semibold">
+              <TypewriterEffect
+                words={words}
+              />
+            </span>
+            <span className="block mt-2 text-gradient text-blue-800 text-2xl sm:text-3xl font-bold">Virtual Assistant</span>
             </motion.h1>
           <motion.p
             className="mt-6 text-lg leading-8 text-muted-foreground"
