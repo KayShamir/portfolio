@@ -19,7 +19,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Hi, I'm Kay Shamir
+            Hi, I&apos;m Kay Shamir
             <br />
             <span className="block mt-2 text-gradient text-2xl sm:text-3xl font-semibold">Virtual Assistant</span>
             </motion.h1>

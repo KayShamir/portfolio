@@ -20,7 +20,7 @@ export default function AboutMe() {
             <p className="text-gray-300 mb-6">
               At CreativeAgency, we blend cutting-edge technology with artistic vision to create digital experiences
               that captivate and inspire. Our team of passionate designers, developers, and strategists work tirelessly
-              to push the boundaries of what's possible in the digital realm.
+              to push the boundaries of what&apos;s possible in the digital realm.
             </p>
             <p className="text-gray-300">
               With a focus on innovation and user-centric design, we've helped countless brands transform their digital
