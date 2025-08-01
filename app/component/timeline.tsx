@@ -37,7 +37,7 @@ const timelineEvents = [
   {
     year: 2025,
     title: "Virtual Assistant",
-    description: "I&apos;m about to start working as a virtual assistant and am looking forward to gaining experience, building my skills, and helping clients however I can.",
+    description: "I'm about to start working as a virtual assistant and am looking forward to gaining experience, building my skills, and helping clients however I can.",
     details:
       "Just beginning my journey as a virtual assistant, eager to learn and grow in this new role.",
   },
