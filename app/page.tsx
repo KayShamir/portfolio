@@ -26,6 +26,7 @@ import {
 } from "@/components/ui/tabs";
 import { Analytics } from "@vercel/analytics/react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import Snowfall from 'react-snowfall'
 
 export default function Home() {
   const [isDark, setIsDark] = useState(false);
@@ -34,6 +35,8 @@ export default function Home() {
   const [flyingHearts, setFlyingHearts] = useState<Array<{ id: number; startX: number; startY: number; endX: number; endY: number; direction: 'left' | 'right' }>>([]);
   const [circles, setCircles] = useState<Array<{ id: number; x: number; y: number; size: number; color: string; angle: number; heartId: number }>>([]);
   const [clickCount, setClickCount] = useState(0);
+  const now = new Date();
+  const isChristmasMonths = now.getMonth() >= 9 && now.getMonth() <= 12;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -464,7 +467,10 @@ export default function Home() {
     },
   ];
 
+
+
   return (
+    <div className="relative">
     <main className="min-h-screen flex items-start md:items-start justify-center px-4 sm:px-6">
       <div className="w-full max-w-5xl flex flex-col p-4 sm:p-6 md:p-10 rounded-lg gap-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
@@ -945,5 +951,9 @@ export default function Home() {
         );
       })}
     </main>
+      {isChristmasMonths && (
+        <Snowfall color={isDark ? undefined : "violet"} snowflakeCount={700}/>
+      )}
+    </div>
   )
 }

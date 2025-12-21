@@ -23,7 +23,7 @@ export async function GET(request: Request) {
 
     const visitors = await redis.get("visitor_count");
 
-    return NextResponse.json({ visitors: parseInt(visitors || "0") });
+    return NextResponse.json({ visitors: parseInt(visitors?.toString() || "0") });
   } catch (error) {
     console.error(error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
