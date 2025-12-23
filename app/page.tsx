@@ -952,7 +952,7 @@ export default function Home() {
       })}
     </main>
       {isChristmasMonths && (
-        <Snowfall color={isDark ? undefined : "violet"} snowflakeCount={700}/>
+        <Snowfall color={isDark ? undefined : "lightblue"} snowflakeCount={700}/>
       )}
     </div>
   )
