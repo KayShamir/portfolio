@@ -249,10 +249,10 @@ export default function Home() {
 
   const timeline = [
     {
-      date: "January 2026",
-      title: "UI/UX Workshop Speaker",
+      date: "February 2026",
+      title: "Intern",
       description:
-        "Presented UI/UX design strategies and prototyping tools. GDG - CTU Main Campus.",
+        "Gained practical industry experience through an internship at Sprobe Inc.,",
     },
     {
       date: "November 2025",
